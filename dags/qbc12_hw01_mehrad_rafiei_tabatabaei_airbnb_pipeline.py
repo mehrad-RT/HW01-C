@@ -19,8 +19,7 @@ default_args = {
 
 DAG_ID = 'qbc12_hw01_mehrad_rafiei_tabatabaei_airbnb_pipeline'
 SCHEMA_NAME = 'student_mehrad_rafiei_tabatabaei'
-MV_NAME = 'mv_airbnb_summary'   # Change if your materialized view has a different name
-
+MV_NAME = 'mv_airbnb_summary'   
 def get_db_config():
     """Fetch PostgreSQL credentials from Airflow Variables."""
     return {
